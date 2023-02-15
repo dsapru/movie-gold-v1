@@ -1,7 +1,6 @@
 import './App.css';
 import api from './api/axiosConfig';
-import {useState, useEffect} from 'React';
-import { faYenSign } from '@fortawesome/free-solid-svg-icons';
+import {useState, useEffect} from 'react';
 
 function App(){
   const [movies, setMovies] = useState();
